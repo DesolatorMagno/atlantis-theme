@@ -1,4 +1,5 @@
 @extends('atlantis-theme.layouts.master')
+@include('atlantis-theme.examples.partials.sidebar-full')
 @section('navbar-brand-')
 @endsection
 @section('title-')
