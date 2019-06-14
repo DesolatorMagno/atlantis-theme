@@ -19,5 +19,7 @@ return [
             'sidebar' => 'dark2',
         ],
     ],
+    'title'  => 'Titulo',
+    'brand'  => 'Brand Name',
 
 ];
