@@ -1,0 +1,30 @@
+<?php
+
+return [
+    "action"              => "Action",
+    "actions"             => "Actions",
+    "admin"               => "Administrator",
+    "back"                => "Back",
+    "back2"               => "Return",
+    "create-new"          => "Create New :Item",
+    "creation"            => "Creation",
+    "dahsboard"           => "Dashboard",
+    "delete"              => "Delete",
+    "delete-this"         => "Delete :This",
+    "delete_confirmation" => "Are you really sure?",
+    "details"             => "Details",
+    "edit"                => "Edit",
+    "edit-this"           => "Edit :This",
+    "home"                => "Home",
+    "list"                => "List",
+    "listing"             => "Listing",
+    "listings"            => "Listings",
+    "menu"                => "menu",
+    "new"                 => "New :Model",
+    "profile"             => "Profile",
+    "search"              => "Search",
+    "settings"            => "Settings",
+    "submit"              => "Submit",
+    "update"              => "Update",
+
+];
