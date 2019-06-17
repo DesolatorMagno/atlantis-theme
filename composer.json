@@ -1,6 +1,6 @@
 {
     "name": "desolatormagno/atlantis-theme",
-    "description": "Paquete basado en el thema gratuito atlantis",
+    "description": "Paquete basado en el tema gratuito atlantis",
     "keywords": ["themes", "laravel", "blade"],
     "license": "MIT",
     "authors": [

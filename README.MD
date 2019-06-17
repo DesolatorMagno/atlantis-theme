@@ -1,12 +1,16 @@
 # Instalación
 
-Instalar
+Via Composer
 
-`composer require desolatormagno/atlantis-theme`
+``` bash
+$ composer require desolatormagno/atlantis-theme
+```
 
 Publicar
 
-`php artisan vendor:publish --tag=atlantis-theme`
+``` bash
+$ php artisan vendor:publish --tag=atlantis-theme
+```
 
 # Utilización
 
