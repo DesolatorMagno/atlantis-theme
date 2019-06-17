@@ -3,10 +3,10 @@ DM
 @endsection
 
 <!-- Sidebar -->
-@section('pre-navbar')
+@section('pre-sidebar')
     @include('atlantis-theme.examples.partials.profile')
 @endsection
-@section('navbar-items')
+@section('sidebar-items')
     @include('atlantis-theme.examples.partials.dashboard')
     @include('atlantis-theme.partials.sidebar.separator', ['section' => 'Components'])
     @include('atlantis-theme.examples.partials.companies')
