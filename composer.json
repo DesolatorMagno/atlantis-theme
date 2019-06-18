@@ -1,8 +1,9 @@
 {
     "name": "desolatormagno/atlantis-theme",
     "description": "Paquete basado en el tema gratuito atlantis",
-    "keywords": ["themes", "laravel", "blade"],
+    "keywords": ["themes", "laravel", "blade", "desolatormagno", "atlantis-theme"],
     "license": "MIT",
+    "homepage": "https://github.com/DesolatorMagno/atlantis-theme",
     "authors": [
         {
             "name": "Reny Ramos",
