@@ -19,7 +19,7 @@ return [
             'sidebar' => 'dark2',
         ],
     ],
-    'title'  => 'Titulo',
-    'brand'  => 'Brand Name',
+    'title'  => env('APP_TITLE', 'Title'),
+    'brand'  => env('APP_BRAND', 'Brand Name'),
 
 ];
