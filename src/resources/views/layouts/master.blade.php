@@ -74,7 +74,6 @@
 
     <!-- jQuery Scrollbar -->
 
-    @include('atlantis-theme.partials.msg')
     <script>
         function activateMenu(root, classList){
             $("#" + root).collapse('show');
