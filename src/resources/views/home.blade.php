@@ -2,9 +2,7 @@
 @section('navbar-brand')
 DM
 @endsection
-@section('title')
-Titulo personalizado
-@endsection
+@section('title', 'Titulo personalizado')
 @section('content')
 <div class="container">
     <div class="row justify-content-center">

@@ -20,7 +20,7 @@ Basta tomar la vista **index** que esta dentro de la carpeta **resources/views/a
 
 Luego de instalado y publicado el paquete se copiaran todos los archivos necesarios, en la carpeta public se creara un nueva carpeta **vendor/atlantis-theme** con el contenido de todos los asset (CSS, Fonts, Img, JS) que utiliza el sistema. 
 
-En la carpeta config se creara un nuevo archivo **theme.php**, el cual contendra 2 combinaciones de colores preconfigurados (claro y obscuro), y algunos atributos para el sistema, como **title** y **brand**.
+En la carpeta config se creara un nuevo archivo **theme.php**, el cual contendrá 2 combinaciones de colores preconfigurados (claro y obscuro), y algunos atributos para el sistema, como **title** y **brand**.
 
 Dentro de la carpeta de **resources/views** se almacenaran las vistas en la carpeta **atlantis-theme**, en estas se incluye la de layouts, una de partials, otra de ejemplos y una vista funcional en la raiz que sirve como base para el sistema.
 
@@ -49,12 +49,9 @@ en caso de necesitar algo previo al listado del navbar
 
 ## Example
 
-``` 
-@section('title')
+``` php
+@section('title', 'Caracola')
 
-Caracola
-
-@endsection 
 ```
 Sera suficiente para cambiarle el titulo a la web a **Caracola**
 
@@ -75,12 +72,12 @@ Para el estilo personalizado o inclusión de otras hojas de estilo.
 
 Sección adicional del NavBar, para casos cuando se deseen agregar ítems en vistas especificas.
 
-Pendiente Traduccion
+Pendiente Traducción
 
 # Helpers Views
 
 **partials/sidebar/separator**
 
-Separador de seccion, crea un elemento con texto visible para poder crear secciones y subsecciones en el menu lateral, esta vista acepta como variable **$section** la cual sera el texto a mostrar.
+Separador de sección, crea un elemento con texto visible para poder crear secciones y subsecciones en el menú lateral, esta vista acepta como variable **$section** la cual sera el texto a mostrar.
 
 (WIP los demás helpers)
